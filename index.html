@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Fancy Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <p>I'm a description of something fun!</p>
+<body class="bg-black">
+    <div class="text-6xl md:text-9xl text-white">
+        <h1>Fancy Project</h1>
+    </div>
+    <div class="flex justify-center items-center h-screen gap-4">
+        <!-- Item One -->
+        <div class="bg-cyan-500 text-cyan-100 px-8 py-8 rounded rounded-md text-3xl">
+            <p>
+                One
+            <p>
+        </div>
+         <!-- Item Two -->
+         <div class="bg-sky-500 text-sky-100 px-8 py-8 rounded rounded-md text-3xl">
+            <p>
+                Two
+            <p>
+        </div>
+         <!-- Item Three-->
+         <div class="bg-blue-500 text-blue-100 px-8 py-8 rounded rounded-md text-3xl">
+            <p>
+                Three
+            <p>
+        </div>
+         <!-- Item Four-->
+         <div class="bg-indigo-500 text-indigo-100 px-8 py-8 rounded rounded-md text-3xl">
+            <p>
+                Four
+            <p>
+        </div>
+    </div>
 </body>
 </html>
