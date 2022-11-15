@@ -53,7 +53,7 @@ Git is defined as a distributed version control system (VCS) -- in other words, 
         ```
         _Note: you can install Git through PowerShell or via WSL._
 2. Install [VS Code](https://code.visualstudio.com/)
-3. Create a local folder(repo) (via command line or through File Explorer)
+3. Create a local folder(repo) (via command line or through File ExplorerVV)
    1. Open folder(repo) in Terminal by dragging into Terminal or open Terminal inside VS Code
 4. Initialize folder(repo)
    1. ```sh
